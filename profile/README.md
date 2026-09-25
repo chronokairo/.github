@@ -45,7 +45,6 @@ Um portfólio de produtos internos, construídos sobre uma base única e compart
 | **Content** | Estúdio criativo e CMS com inteligência artificial. |
 | **WorkMed** | SaaS multi-tenant de saúde ocupacional. |
 | **E-commerce** | B2B, marketplace, catálogo digital, WMS e logística de entregas. |
-| **Escrita360** | Escrita guiada e avaliação textual com IA multimodal. |
 | **Nimbus** | Infraestrutura, cloud e DevOps automatizados. |
 
 ---
