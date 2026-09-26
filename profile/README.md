@@ -32,20 +32,48 @@ Unimos a disciplina de uma engenharia de produto madura ao cuidado de um trabalh
 
 Um portfólio de produtos internos, construídos sobre uma base única e compartilhada. Cada entrega a um cliente parte de componentes já maduros e testados em produção.
 
-| Produto | Propósito |
+#### Fundação
+
+| Repositório | Propósito |
 | :--- | :--- |
-| **Platform** | A fundação comum: autenticação, UI e design system, segurança e criptografia, observabilidade e SDKs. |
-| **AI** | Centro de inteligência: agentes, RAG, MCP, provedores de LLM e um coding agent nativo em Rust. |
-| **Payments** | Camada única de pagamentos: Stripe, Pix e boleto, Asaas, Mercado Pago e PagBank. |
-| **Finance** | Contas a pagar e a receber, conciliação, DRE e patrimônio. |
-| **CRM · Marketing** | Pipeline comercial, automação de marketing, SEO e analytics. |
-| **Support** | Helpdesk e atendimento omnichannel em tempo real. |
-| **People · Projects** | Gestão de pessoas e acessos; projetos, cronogramas e entregas. |
-| **Legal** | Contratos, compliance e gestão eletrônica de documentos. |
-| **Content** | Estúdio criativo e CMS com inteligência artificial. |
-| **WorkMed** | SaaS multi-tenant de saúde ocupacional. |
-| **E-commerce** | B2B, marketplace, catálogo digital, WMS e logística de entregas. |
-| **Nimbus** | Painel DevOps e gestão multi-cloud de free tier, com failover por cota. |
+| [`platform`](/chronokairo/platform) | A fundação comum: auth, UI e design system, segurança e criptografia, SDKs e observabilidade — pacote npm único, zero-lib. |
+| [`payments`](/chronokairo/payments) | Camada única de pagamentos: Stripe, Banco Inter (Pix e boleto), Asaas, Mercado Pago e PagBank. |
+| [`design`](/chronokairo/design) | Automação de design, UX/UI e design system integrado. |
+| [`vault`](/chronokairo/vault) | Gerenciador local-first de segredos e chaves criptográficas, zero-lib (CLI Rust, web e desktop Tauri). |
+| [`engineering`](/chronokairo/engineering) | Monorepo de engenharia: devops, QA, design, dados/IA e vault. |
+| [`_template-saas`](/chronokairo/_template-saas) | Template oficial de inicialização de aplicações SaaS. |
+
+#### Produtos
+
+| Repositório | Propósito |
+| :--- | :--- |
+| [`ai`](/chronokairo/ai) | Centro único de inteligência: agentes, RAG, MCP, provedores de LLM, CLI Rust (`ckc`) e desktop Tauri. |
+| [`people`](/chronokairo/people) | Gestão de pessoas, talentos, equipes, cargos e controle de acessos corporativos. |
+| [`crm`](/chronokairo/crm) | Gestão comercial: leads, oportunidades, pipelines e automação de mensageria (hexagonal). |
+| [`projects`](/chronokairo/projects) | Projetos, cronogramas, PMO, painel executivo e releases com IA para software houses. |
+| [`marketing`](/chronokairo/marketing) | Marketing full-stack: conversões, SEO, analytics, rastreador e harness de agentes. |
+| [`support`](/chronokairo/support) | Helpdesk, SAC, tickets e atendimento omnichannel em tempo real (ChatZap e Chatwoot nativo). |
+| [`finance`](/chronokairo/finance) | Contas a pagar e a receber, conciliação, DRE e patrimônio (React 19 + Rust/Axum). |
+| [`workmed`](/chronokairo/workmed) | SaaS multi-tenant de saúde ocupacional (Audiomed = Tenant #1). |
+| [`e-commerce`](/chronokairo/e-commerce) | E-commerce B2B, marketplace, catálogo digital, WMS e logística de entregas. |
+| [`legal`](/chronokairo/legal) | Contratos, compliance LGPD, fluxos processuais e GED com IA. |
+| [`content`](/chronokairo/content) | Estúdio de criação, gestão e publicação de conteúdo com IA. |
+| [`bi`](/chronokairo/bi) | Business Intelligence e painéis executivos com métricas consolidadas. |
+| [`nimbus`](/chronokairo/nimbus) | Automação de infraestrutura, cloud free-tier, DevOps e orquestração de servidores. |
+
+#### Laboratório & Pesquisa
+
+| Repositório | Propósito |
+| :--- | :--- |
+| [`research`](/chronokairo/research) | Laboratório de P&D: SaciData (IoT), Clinical, Literatus, News, Proteção à Vítima e Mastery. |
+| [`educacional`](/chronokairo/educacional) | Protótipo de SaaS educacional whitelabel, em derivação das verticais de ensino do portfólio. |
+
+#### Segurança & Institucional
+
+| Repositório | Propósito |
+| :--- | :--- |
+| [`security`](/chronokairo/security) | Ferramentas de segurança e pentest: browser MCP, WAF bypass, OSINT e apps mobile/desktop. |
+| [`chronokairo.github.io`](/chronokairo/chronokairo.github.io) | Site institucional. |
 
 ---
 
